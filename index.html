@@ -17,6 +17,10 @@
     <link rel="icon" href="midias/logo.png">
     <title>Clothes Store</title>
 
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins:wght@300&display=swap');
+	</style>
+
   </head>
   <body>
 
@@ -38,31 +42,32 @@
 	  					<li class="nav-item">
 	  						<a href="#banner" class="nav-link">Inicio</a>
 	  					</li>
-	  					<li class="nav-item">
-	  						<a href="#sad" class="nav-link">Principais Produtos</a>
+							<li class="nav-item">
+	  						<a href="#sobre-nos" class="nav-link">Sobre Nós</a>
 	  					</li>
 	  					<li class="nav-item">
-	  						<a href="#sad" class="nav-link">Sobre Nós</a>
+	  						<a href="#principais-produtos" class="nav-link">Principais Produtos</a>
 	  					</li>
+	  					
 	  					<li class="nav-item">
 	  						<a href="#sad" class="nav-link">Depoimentos</a>
 	  					</li>
 	  					<li class="nav-item">
-	  						<a href="#sad" class="nav-link">Contato</a>
+	  						<a href="#contato" class="nav-link">Contato</a>
 	  					</li>
 						<li class="nav-item divisor"></li>
 	  					<li class="nav-item ml-auto">
-	  						<a href="https://www.instagram.com/">
+	  						<a href="https://www.instagram.com/" target="_blank">
 	  							<i class="fa-brands fa-instagram iconfirst"></i>
 	  						</a>
 	  					</li>
 	  					<li class="nav-item ml-auto">
-	  						<a href="https://www.facebook.com/">
+	  						<a href="https://www.facebook.com/" target="_blank">
 	  							<i class="fa-brands fa-facebook iconfirst"></i>
 	  						</a>
 	  					</li>
 	  					<li class="nav-item ml-auto">
-	  						<a href="https://www.whatsapp.com/">
+	  						<a href="https://www.whatsapp.com/" target="_blank">
 	  							<i class="fa-brands fa-whatsapp iconfirst"></i>
 	  						</a>
 	  					</li>
@@ -111,10 +116,94 @@
 		</div>
 	</section>
 
+	<div class="sobre-nos" id="sobre-nos">
+		<div class="container baloes">
+			<div class="balao-grande">
+				<h3>
+					Sobre nós
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore excepturi ipsam magni possimus velit reiciendis recusandae libero aut qui dignissimos quasi ab consequatur minima necessitatibus ratione nihil, optio minus rerum.
+				</p>
+			</div>
+			<div class="row" style="padding: 15px;">
+				<div class="balao-medio col-md-6 col-sm-12">
+					<h3>
+						Missão
+					</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore excepturi ipsam magni possimus velit reiciendis recusandae libero aut qui dignissimos quasi ab consequatur minima necessitatibus ratione nihil, optio minus rerum.
+					</p>
+				</div>
+				<div clas="col-md-6 col-sm-12 offset-3">
+					<div class="balao-pequeno">
+						<h3>
+							Visão
+						</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore excepturi ipsam magni possimus velit reiciendis recusandae libero aut qui dignissimos quasi ab consequatur minima necessitatibus ratione nihil, optio minus rerum.
+						</p>
+					</div>
+					<div class="balao-pequeno">
+						<h3>Valores</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quae sed suscipit architecto a iste dolore? Quasi ab vel a voluptate nesciunt harum itaque illum id, dolores maiores et perspiciatis!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-	 <div id="sad" class="container">
-	 	<img src="https://static.vakinha.com.br/uploads/vakinha/image/985670/f81f3d87862bd80d536176f7dd26bf10--fresh-memes-nursing.jpg?ims=700x410">
-	 </div>
+	<div class="principais-produtos" id="principais-produtos">
+		
+		<div class="titulo-principais-produtos">
+			<h2><b>Nossos principais produtos</b></h2>
+		</div>
+		<div class="row produtos">
+			<div class="col-md-4 col-sm-6 produto-box">
+				<h2> PRODUTO 1 </h2>
+			</div>
+			<div class="col-md-4 col-sm-6 produto-box">
+				<h2>	PRODUTO 2 </h2>
+			</div>
+			<div class="col-md-4 col-sm-6 produto-box">
+				<h2>	PRODUTO 3 </h2>
+			</div>		
+			<div class="col-md-4 col-sm-6 produto-box">
+				<h2>	PRODUTO 4 </h2>
+			</div>
+			<div class="col-md-4 col-sm-6 produto-box">
+				<h2>	PRODUTO 5 </h2>
+			</div>
+			<div class="col-md-4 col-sm-6 produto-box">
+				<h2>	PRODUTO 6 </h2>
+			</div>
+		</div>
+	</div>
+		
+	
+	<div class="contato" id="contato">
+		<div class="container">
+			<div class="row">
+				<div class="form">
+					<div class="title-form" style="text-align:center;">
+						<h3><b>FALE CONOSCO</b></h3>
+					</div>
+					<form action="https://formsubmit.co/paulolsouza19@gmail.com" method="post">
+							
+							<input type="text" name="nome" placeholder="Nome" required/>														
+							<input type="email" name="email" placeholder="Email" required/>							
+							<textarea rows="10" cols="60" name="message" placeholder="Mensagem" required>
+							</textarea>							
+							<button type="submit">Enviar</button>
+							
+							<input type="hidden" name="_captcha" value="false" />
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 	 <footer>
@@ -126,24 +215,24 @@
 	 			<div class="col-md-2">
 	 				<p class="footer-words">Feito pela equipe 4</p>
 	 			</div>
-	 			<div class="col-md-2 ml-auto row">
+	 			<div class="col-md-2 ml-auto row" style="padding-top: 50px;">
 	 				<ul class="navbar-nav ml-auto">
 	 					<li class="nav-item ml-auto">
-	  						<a href="https://www.instagram.com/">
-	  							<i class="fa-brands fa-instagram iconfirst"></i>
-	  						</a>
-	  					</li>
-	  					<li class="nav-item ml-auto">
-	  						<a href="https://www.facebook.com/">
-	  							<i class="fa-brands fa-facebook iconfirst"></i>
-	  						</a>
-	  					</li>
-	  					<li class="nav-item ml-auto">
-	  						<a href="https://www.whatsapp.com/">
-	  							<i class="fa-brands fa-whatsapp iconfirst"></i>
-	  						</a>
-	  					</li>
-	  				</ul>
+	  					<a href="https://www.instagram.com/" target="_blank">
+	  						<i class="fa-brands fa-instagram iconfirst"></i>
+	  					</a>
+	  				</li>
+	  				<li class="nav-item ml-auto">
+	  					<a href="https://www.facebook.com/" target="_blank">
+	  						<i class="fa-brands fa-facebook iconfirst"></i>
+	  					</a>
+	  				</li>
+	  				<li class="nav-item ml-auto">
+	  					<a href="https://www.whatsapp.com/" target="_blank">
+	  						<i class="fa-brands fa-whatsapp iconfirst"></i>
+	  					</a>
+	  				</li>
+	  			</ul>
 	 			</div>
 	 			<div class="col-md-2 ml-auto row">
 	 				<p class="footer-words">Telefone: (87) 9 9771-6356</p>
